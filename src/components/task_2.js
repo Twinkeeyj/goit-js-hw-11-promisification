@@ -7,6 +7,7 @@ export default function () {
             { name: 'Ajax', active: true },
             { name: 'Lux', active: false },
         ];
+        
 
         const toggleUserState = (allUsers, userName) => {
             const updatedUsers = allUsers.map(user =>
